@@ -6,10 +6,12 @@ WORKDIR     /home
 
 COPY        ./requirements.txt .
 
-COPY        * .
+COPY        . .
 
-RUN         pip install -r requirements.txt \
-    && adduser --disabled-password --no-create-home doe
+RUN        apk --no-cache add shadow \
+    && addgroup -g 1001 -S doe \
+    && adduser -u 1001 -G doe -h /home -s /bin/sh -D doe \
+    && pip install -r requirements.txt
 
 USER        doe
 

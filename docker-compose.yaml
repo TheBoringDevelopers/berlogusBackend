@@ -15,16 +15,16 @@ services:
       - fastapiappnetwork
     ports:
       - "5432:5432"
-  # app:
-  #   image: fastapiapp
-  #   container_name: fastapiapp_demoapp
-  #   ports:
-  #     - 8000:8000
-  #   volumes:
-  #     - .:/home
-  #   depends_on:
-  #     - db
-  #   networks:
-  #     - fastapiappnetwork
+  app:
+    image: fastapiapp
+    container_name: fastapiapp_demoapp
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/home
+    depends_on:
+      - db
+    networks:
+      - fastapiappnetwork
 networks:
   fastapiappnetwork:
