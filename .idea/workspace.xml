@@ -5,19 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc1e4a88-4281-4716-8e91-130b618d8118" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/berlogusBackend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/dependencies/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/dependencies/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/errors/http_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/errors/validation_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/routes/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/routes/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/routes/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/settings/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/settings/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/settings/development.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/settings/production.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/queries/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/queries/queries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/queries/queries.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/queries/tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/repositories/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/repositories/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/domain/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/domain/rwmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/domain/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/rwschema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/resources/strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prod.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/51a9cb6a-e37d-4021-b88f-f3a7f595159a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/51a9cb6a-e37d-4021-b88f-f3a7f595159a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alembic/README" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/versions/e246fb3eaee6_create_user_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/script.py.mako" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/migrations/script.py.mako" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/versions/abb079be5aee_create_user_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_initializer.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/db/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/db/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/dependencies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/errors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/db/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,24 +102,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/apple/PycharmProjects/berlogusBackend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$/api/errors" />
+      <recent name="$PROJECT_DIR$/api/routes" />
+      <recent name="$PROJECT_DIR$/services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/db/migrations" />
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +157,8 @@
       <workItem from="1711632112480" duration="435000" />
       <workItem from="1711720835300" duration="688000" />
       <workItem from="1711721536098" duration="1125000" />
+      <workItem from="1711917184074" duration="1366000" />
+      <workItem from="1711918560695" duration="8755000" />
     </task>
     <servers />
   </component>
